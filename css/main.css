@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: table;
+    margin: 0 auto;
+}
+
+div.teaser {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.resource-not-found {
+    text-align: center;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.resource-not-found {
+        margin-top: 5rem;
+    }
+}
+
+/* medium screen and up */
+@media screen and (min-width: 40em) {
+    div.resource-not-found {
+        margin-top: 10rem;
+    }
+}
+
+div.teaser, div.resource-not-found p {
+    text-align: center;
+}
+
+div.teaser {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.teaser p {
+        font-size: 1rem;
+    }
+}
+
+/* medium screen and up */
+@media screen and (min-width: 40em) {
+    div.teaser p {
+        font-size: 1.5rem;
+    }
+}
+
+div.resource-not-found p span.message {
+    color: #696969; /* dimgrey */
+}
