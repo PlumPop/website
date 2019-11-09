@@ -1,0 +1,10 @@
+div.cell:first-child {
+    margin-top: 10rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.cell:first-child {
+        margin-top: 5rem;
+    }
+}

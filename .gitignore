@@ -1,9 +1,6 @@
 # General ignores
 *~
 
-# Node.js module dependency directory
-/node_modules/
-
 # IntelliJ ignores
 /.idea/
 *.iml
