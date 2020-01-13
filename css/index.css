@@ -1,3 +1,18 @@
+img.logo {
+    margin-top: 1.15rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.15rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    img.logo {
+        margin-top: 1rem;
+        margin-left: 1.3rem;
+        margin-bottom: 1rem;
+    }
+}
+
 div.heading {
     height: 600px;
     background-position: center;
