@@ -1,0 +1,245 @@
+div.headliner {
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.headliner {
+        height: 900px;
+    }
+}
+
+div.headliner > div.cell:first-child p {
+    margin-top: 28rem;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 3px 3px black;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.headliner > div.cell:first-child p {
+        margin-top: 17rem;
+        line-height: 4rem;
+        font-size: 3.5rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    div.headliner > div.cell:first-child p {
+        margin-top: 18rem;
+        line-height: 4rem;
+        font-size: 4rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.headliner > div.cell:first-child p {
+        line-height: 5rem;
+        font-size: 5rem;
+    }
+}
+
+div.introduction-section > div.cell:first-child {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+div.introduction-section h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div.introduction-section hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 25rem;
+    border: none;
+    border-top: 2px solid #000;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.introduction-section hr {
+        width: 13rem;
+    }
+}
+
+div.why-loyalty-section {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #d31e63;
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    div.why-loyalty-section {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.why-loyalty-section {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+
+div.why-loyalty-section p {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #f3a4bf;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.why-loyalty-section p {
+        font-size: 2.25rem;
+    }
+}
+
+div.perspective-section blockquote {
+    margin-top: 1.5rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-left: 0.6rem solid #bf1952;
+    text-align: center;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.perspective-section blockquote {
+        padding: 1rem;
+    }
+}
+
+div.perspective-section blockquote p {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.benefits-section {
+        margin-top: 0.5rem;
+    }
+
+    div.benefits-section img.benefits-icon {
+        margin-top: 1rem;
+    }
+
+    div.benefits-section p.benefits-description-left {
+        margin-top: 1rem;
+    }
+
+    div.benefits-section p.benefits-description-right {
+        margin-top: 1rem;
+    }
+}
+
+/* medium and up */
+@media screen and (min-width: 40em) {
+    div.benefits-section img.benefits-icon {
+        margin-top: 1.5rem;
+    }
+
+    div.benefits-section p.benefits-description-left {
+        margin-top: 1.5rem;
+        padding-left: 3rem;
+        padding-right: 15rem;
+    }
+
+    div.benefits-section p.benefits-description-right {
+        margin-top: 1.5rem;
+        float: right;
+        padding-left: 15rem;
+        padding-right: 3rem;
+    }
+}
+
+div.included-item {
+    margin-top: 1.5rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.included-item:first-child {
+        margin-top: 2rem;
+    }
+
+    div.included-item:not(:first-child) {
+        margin-top: 4rem;
+    }
+}
+
+div.included-item-label-container {
+    height: 5rem !important;
+}
+
+div.included-item-label {
+    margin-top: 1rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+div.pricing {
+    padding: 0;
+}
+
+div.pricing-top {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 150px;
+    background-color: #bf1952;
+    color: #fff;
+}
+
+span.pricing {
+    font-size: 2.75rem;
+    font-weight: bold;
+}
+
+ul.pricing-list {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+span.setup-fee-price {
+    text-decoration: line-through;
+}
+
+a.call-now {
+    margin-top: 0.75rem;
+    border-radius: 4px;
+}
+
+a.call-now span {
+    font-weight: 900;
+}
+
+a.call-now:link,
+a.call-now:visited {
+    background-color: darkorange;
+}
+
+span.phone-number {
+    font-weight: bold;
+    color: #aa1850;
+}
+
+span.phone-number {
+    font-size: 2.5rem;
+}
