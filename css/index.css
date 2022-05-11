@@ -84,7 +84,7 @@ div.app-section {
 }
 
 ul.plumpop-mobile-app-screenshot-list {
-    margin-top: 6.5rem;
+    margin-top: 8.25rem;
     margin-left: 2.5rem;
     line-height: 3.5rem;
 }
@@ -107,7 +107,7 @@ ul.plumpop-mobile-app-screenshot-list > li > span {
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     ul.plumpop-mobile-app-screenshot-list {
-        margin-top: 3rem;
+        margin-top: 0;
         line-height: 2rem;
     }
 }
@@ -120,7 +120,7 @@ ul.plumpop-mobile-app-screenshot-list > li > span {
 }
 
 img.plumpop-beacon {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 ul.plumpop-beacon-list {
@@ -135,11 +135,11 @@ ul.plumpop-beacon-list > li::marker {
 /* medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     img.plumpop-beacon {
-        margin-top: 5rem;
+        margin-top: 0.5rem;
     }
 
     ul.plumpop-beacon-list {
-        margin-top: 6.5rem;
+        margin-top: 0;
         padding-left: 3.5rem;
         line-height: 3.5rem;
     }
@@ -148,7 +148,7 @@ ul.plumpop-beacon-list > li::marker {
 /* large and up */
 @media screen and (min-width: 64em) {
     img.plumpop-beacon {
-        margin-top: 6rem;
+        margin-top: 1.75rem;
     }
 
     ul.plumpop-beacon-list {
@@ -156,14 +156,17 @@ ul.plumpop-beacon-list > li::marker {
     }
 }
 
-img.icon {
-    margin-top: 5rem;
-}
-
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     img.icon {
         margin-top: 3rem;
+    }
+}
+
+/* medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    img.icon {
+        margin-top: 4.5rem;
     }
 }
 
