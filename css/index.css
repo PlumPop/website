@@ -177,6 +177,11 @@ p.tokens-subtitle {
     color: #787879;
 }
 
+h1.discover {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 p.coming-soon {
     font-size: 1.75rem;
     color: gray;
@@ -190,7 +195,7 @@ p.coming-soon {
 }
 
 h1.contact-us {
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 a.send-us-email {
