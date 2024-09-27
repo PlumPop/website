@@ -156,6 +156,10 @@ ul.plumpop-beacon-list > li::marker {
     }
 }
 
+div.token-section {
+    margin-top: -2.5rem;
+}
+
 /* small screen only */
 @media screen and (max-width: 39.9375em) {
     img.icon {
