@@ -1,0 +1,110 @@
+div.top-nav-small {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #bf1952;
+}
+
+div.explainer-video-section {
+    p {
+        margin-top: 1rem;
+        font-size: 1.25rem;
+        color: #444;
+    }
+
+    div.explainer-video-container {
+        align-content: center;
+    }
+}
+
+a.get-started {
+    margin-top: 1rem;
+    border-radius: 4px;
+    width: 12rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+a.get-started:link,
+a.get-started:visited {
+    background-color: #ff9900;
+}
+
+a.get-started:active,
+a.get-started:hover,
+a.get-started:focus {
+    background-color: #ffa31a;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    div.explainer-video-section {
+        margin-top: 3rem;
+
+        div.explainer-video-container {
+            margin-top: 2rem;
+        }
+    }
+}
+
+/* medium and up */
+@media screen and (min-width: 40em) {
+    div.explainer-video-section {
+        margin-top: 2rem;
+
+        h1 {
+            line-height: 3.25rem;
+        }
+
+        a.get-started {
+            margin-top: 2.5rem;
+        }
+
+        div.explainer-video-container {
+            margin-top: 2rem;
+        }
+    }
+}
+
+/* large and up */
+@media screen and (min-width: 64em) {
+    div.explainer-video-section {
+        margin-top: 3rem;
+
+        p {
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* small screen only */
+@media screen and (max-width: 39.9375em) {
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+ul {
+    margin-left: 0;
+    list-style-type: none;
+
+    li {
+        margin-bottom: 0.5rem;
+
+        div.icon {
+            margin-right: 0.75rem;
+        }
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+div.footer {
+    margin-top: 3.5rem;
+}
