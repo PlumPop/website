@@ -55,13 +55,13 @@ a.get-started:focus {
             line-height: 3.25rem;
         }
 
-        a.get-started {
-            margin-top: 2.5rem;
-        }
-
         div.explainer-video-container {
             margin-top: 2rem;
         }
+    }
+
+    a.get-started {
+        margin-top: 2.5rem;
     }
 }
 
